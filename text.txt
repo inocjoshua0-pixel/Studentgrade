@@ -1,0 +1,624 @@
+<meta name='viewport' content='width=device-width, initial-scale=1'/>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Student Grade Page</title>
+
+<style>
+
+body{
+    font-family: "Segoe UI", Arial, sans-serif;
+    margin:0;
+    background:#e8ecf3;
+}
+
+header{
+    background:#1f2937;
+    color:white;
+    text-align:center;
+    padding:25px;
+}
+
+.container{
+    width:85%;
+    margin:auto;
+    margin-top:25px;
+}
+
+.section{
+    background:white;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+    margin-bottom:25px;
+}
+
+h2{
+    border-left:5px solid #4f46e5;
+    padding-left:10px;
+}
+
+ol{
+    padding-left:25px;
+}
+
+ul{
+    padding-left:25px;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+    margin-top:10px;
+}
+
+thead{
+    background:#4f46e5;
+    color:white;
+}
+
+th, td{
+    padding:10px;
+    border:1px solid #ddd;
+    text-align:center;
+}
+
+tbody tr:nth-child(even){
+    background:#f3f4f6;
+}
+
+tfoot{
+    background:#d1d5db;
+    font-weight:bold;
+}
+
+footer{
+    text-align:center;
+    background:#1f2937;
+    color:white;
+    padding:15px;
+    margin-top:20px;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>Class Schedule Page</h1>
+<p>Student Academic Record</p>
+</header>
+
+<div class="container">
+
+<div class="section">
+<h2>Daily Class Schedule (Ordered List)</h2>
+
+<ol>
+<li>Precal -- 4:00pm - 5:00pm</li>
+<li>Understanding the Self -- 7:00am - 8:30am</li>
+<li>NSTP -- 8:30am - 10:00am</li>
+<li>Programming -- 10:00am - 1:00pm</li>
+<li>Pathfit -- 2:00pm - 3:00pm</li>
+<li>Introduction to Computing -- 1:00pm - 2:00pm</li>
+<li>Office Productivity Tools -- 11:00am - 12:00pm</li>
+<li>Sining -- 10:00am - 12:00pm</li>
+<li>Mathematics in the Modern World -- 3:00pm - 4:00pm</li>
+</ol>
+</div>
+
+<div class="section">
+<h2>School Activities (Unordered List)</h2>
+
+<ul>
+<li>Morning Assembly</li>
+<li>Club Meeting</li>
+<li>Library Time</li>
+<li>Sports Practice</li>
+</ul>
+</div>
+
+<div class="section">
+<h2>Student Grade Table</h2>
+
+<table>
+
+<thead>
+<tr>
+<th>Name of Instructor</th>
+<th>Subject</th>
+<th>Grade</th>
+</tr>
+</thead>
+
+<tbody>
+
+<tr>
+<td>Yagong</td>
+<td>Precal</td>
+<td>1.6</td>
+</tr>
+
+<tr>
+<td>Yagong</td>
+<td>Understanding the Self</td>
+<td>2.4</td>
+</tr>
+
+<tr>
+<td>Paquibot</td>
+<td>NSTP</td>
+<td>2.1</td>
+</tr>
+
+<tr>
+<td>Eda</td>
+<td>Programming</td>
+<td>2.0</td>
+</tr>
+
+<tr>
+<td>Paquibot</td>
+<td>Pathfit</td>
+<td>1.6</td>
+</tr>
+
+<tr>
+<td>Leonizo</td>
+<td>Office Productivity Tools</td>
+<td>2.0</td>
+</tr>
+
+<tr>
+<td>Empaces</td>
+<td>Introduction to Computing</td>
+<td>2.3</td>
+</tr>
+
+<tr>
+<td>Ando</td>
+<td>Sining</td>
+<td>1.9</td>
+</tr>
+
+</tbody>
+
+<tfoot>
+<tr>
+<td colspan="2">Average Score</td>
+<td>2.1</td>
+</tr>
+</tfoot>
+
+</table>
+
+</div>
+
+</div>
+
+<footer>
+<p>First Semester Class Schedule</p>
+</footer>
+
+</body>
+</ht
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Student Grade Page</title>
+
+<style>
+
+body{
+    font-family: "Segoe UI", Arial, sans-serif;
+    margin:0;
+    background:#e8ecf3;
+}
+
+header{
+    background:#1f2937;
+    color:white;
+    text-align:center;
+    padding:25px;
+}
+
+.container{
+    width:85%;
+    margin:auto;
+    margin-top:25px;
+}
+
+.section{
+    background:white;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+    margin-bottom:25px;
+}
+
+h2{
+    border-left:5px solid #4f46e5;
+    padding-left:10px;
+}
+
+ol{
+    padding-left:25px;
+}
+
+ul{
+    padding-left:25px;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+    margin-top:10px;
+}
+
+thead{
+    background:#4f46e5;
+    color:white;
+}
+
+th, td{
+    padding:10px;
+    border:1px solid #ddd;
+    text-align:center;
+}
+
+tbody tr:nth-child(even){
+    background:#f3f4f6;
+}
+
+tfoot{
+    background:#d1d5db;
+    font-weight:bold;
+}
+
+footer{
+    text-align:center;
+    background:#1f2937;
+    color:white;
+    padding:15px;
+    margin-top:20px;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>Class Schedule Page</h1>
+<p>Student Academic Record</p>
+</header>
+
+<div class="container">
+
+<div class="section">
+<h2>Daily Class Schedule (Ordered List)</h2>
+
+<ol>
+<li>Precal — 4:00pm - 5:00pm</li>
+<li>Understanding the Self — 7:00am - 8:30am</li>
+<li>NSTP — 8:30am - 10:00am</li>
+<li>Programming — 10:00am - 1:00pm</li>
+<li>Pathfit — 2:00pm - 3:00pm</li>
+<li>Introduction to Computing — 1:00pm - 2:00pm</li>
+<li>Office Productivity Tools — 11:00am - 12:00pm</li>
+<li>Sining — 10:00am - 12:00pm</li>
+<li>Mathematics in the Modern World — 3:00pm - 4:00pm</li>
+</ol>
+</div>
+
+<div class="section">
+<h2>School Activities (Unordered List)</h2>
+
+<ul>
+<li>Morning Assembly</li>
+<li>Club Meeting</li>
+<li>Library Time</li>
+<li>Sports Practice</li>
+</ul>
+</div>
+
+<div class="section">
+<h2>Student Grade Table</h2>
+
+<table>
+
+<thead>
+<tr>
+<th>Name of Instructor</th>
+<th>Subject</th>
+<th>Grade</th>
+</tr>
+</thead>
+
+<tbody>
+
+<tr>
+<td>Yagong</td>
+<td>Precal</td>
+<td>1.6</td>
+</tr>
+
+<tr>
+<td>Yagong</td>
+<td>Understanding the Self</td>
+<td>2.4</td>
+</tr>
+
+<tr>
+<td>Paquibot</td>
+<td>NSTP</td>
+<td>2.1</td>
+</tr>
+
+<tr>
+<td>Eda</td>
+<td>Programming</td>
+<td>2.0</td>
+</tr>
+
+<tr>
+<td>Paquibot</td>
+<td>Pathfit</td>
+<td>1.6</td>
+</tr>
+
+<tr>
+<td>Leonizo</td>
+<td>Office Productivity Tools</td>
+<td>2.0</td>
+</tr>
+
+<tr>
+<td>Empaces</td>
+<td>Introduction to Computing</td>
+<td>2.3</td>
+</tr>
+
+<tr>
+<td>Ando</td>
+<td>Sining</td>
+<td>1.9</td>
+</tr>
+
+</tbody>
+
+<tfoot>
+<tr>
+<td colspan="2">Average Score</td>
+<td>2.1</td>
+</tr>
+</tfoot>
+
+</table>
+
+</div>
+
+</div>
+
+<footer>
+<p>First Semester Class Schedule</p>
+</footer>
+
+</body>
+</html>
+```
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Student Grade Page</title>
+
+<style>
+
+body{
+    font-family: "Segoe UI", Arial, sans-serif;
+    margin:0;
+    background:#e8ecf3;
+}
+
+header{
+    background:#1f2937;
+    color:white;
+    text-align:center;
+    padding:25px;
+}
+
+.container{
+    width:85%;
+    margin:auto;
+    margin-top:25px;
+}
+
+.section{
+    background:white;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+    margin-bottom:25px;
+}
+
+h2{
+    border-left:5px solid #4f46e5;
+    padding-left:10px;
+}
+
+ol{
+    padding-left:25px;
+}
+
+ul{
+    padding-left:25px;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+    margin-top:10px;
+}
+
+thead{
+    background:#4f46e5;
+    color:white;
+}
+
+th, td{
+    padding:10px;
+    border:1px solid #ddd;
+    text-align:center;
+}
+
+tbody tr:nth-child(even){
+    background:#f3f4f6;
+}
+
+tfoot{
+    background:#d1d5db;
+    font-weight:bold;
+}
+
+footer{
+    text-align:center;
+    background:#1f2937;
+    color:white;
+    padding:15px;
+    margin-top:20px;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>Class Schedule Page</h1>
+<p>Student Academic Record</p>
+</header>
+
+<div class="container">
+
+<div class="section">
+<h2>Daily Class Schedule (Ordered List)</h2>
+
+<ol>
+<li>Precal — 4:00pm - 5:00pm</li>
+<li>Understanding the Self — 7:00am - 8:30am</li>
+<li>NSTP — 8:30am - 10:00am</li>
+<li>Programming — 10:00am - 1:00pm</li>
+<li>Pathfit — 2:00pm - 3:00pm</li>
+<li>Introduction to Computing — 1:00pm - 2:00pm</li>
+<li>Office Productivity Tools — 11:00am - 12:00pm</li>
+<li>Sining — 10:00am - 12:00pm</li>
+<li>Mathematics in the Modern World — 3:00pm - 4:00pm</li>
+</ol>
+</div>
+
+<div class="section">
+<h2>School Activities (Unordered List)</h2>
+
+<ul>
+<li>Morning Assembly</li>
+<li>Club Meeting</li>
+<li>Library Time</li>
+<li>Sports Practice</li>
+</ul>
+</div>
+
+<div class="section">
+<h2>Student Grade Table</h2>
+
+<table>
+
+<thead>
+<tr>
+<th>Name of Instructor</th>
+<th>Subject</th>
+<th>Grade</th>
+</tr>
+</thead>
+
+<tbody>
+
+<tr>
+<td>Yagong</td>
+<td>Precal</td>
+<td>1.6</td>
+</tr>
+
+<tr>
+<td>Yagong</td>
+<td>Understanding the Self</td>
+<td>2.4</td>
+</tr>
+
+<tr>
+<td>Paquibot</td>
+<td>NSTP</td>
+<td>2.1</td>
+</tr>
+
+<tr>
+<td>Eda</td>
+<td>Programming</td>
+<td>2.0</td>
+</tr>
+
+<tr>
+<td>Paquibot</td>
+<td>Pathfit</td>
+<td>1.6</td>
+</tr>
+
+<tr>
+<td>Leonizo</td>
+<td>Office Productivity Tools</td>
+<td>2.0</td>
+</tr>
+
+<tr>
+<td>Empaces</td>
+<td>Introduction to Computing</td>
+<td>2.3</td>
+</tr>
+
+<tr>
+<td>Ando</td>
+<td>Sining</td>
+<td>1.9</td>
+</tr>
+
+</tbody>
+
+<tfoot>
+<tr>
+<td colspan="2">Average Score</td>
+<td>2.1</td>
+</tr>
+</tfoot>
+
+</table>
+
+</div>
+
+</div>
+
+<footer>
+<p>First Semester Class Schedule</p>
+</footer>
+
+</body>
+</html>
+```
+ml>
+```
